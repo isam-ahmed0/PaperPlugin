@@ -1,0 +1,16 @@
+{
+  "name": "AdvancedMultiCmd Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspace",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "vscjava.vscode-java-pack",
+    "redhat.java",
+    "vscjava.vscode-maven"
+  ],
+  "postCreateCommand": "mvn clean install"
+}
